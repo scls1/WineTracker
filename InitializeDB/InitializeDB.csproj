@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NHibernate" Version="5.5.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+  <ItemGroup>
+  
+    <ProjectReference Include="..\WinetrackerGen.ApplicationCore\WinetrackerGen.ApplicationCore.csproj"/>
+    <ProjectReference Include="..\WinetrackerGen.Infraestructure\WinetrackerGen.Infraestructure.csproj"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WinetrackerGen.Infraestructure"
+		                   namespace="WinetrackerGen.Infraestructure.EN.Winetracker">
+		    
+		    
+			
+				<class name="PedidoNH" table="Pedido"> 
+				  	
+						<id name="Id" column="idPedido" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Estado_pedido" > 
+						<column name="estado_pedido"  not-null="true"/>
+					</property>
+					<property name="FechaPedido" type="date"> 
+						<column name="fechaPedido"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<many-to-one name="Comprador" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
+								<column name="FK_attribute_idUsuario"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="LineaPedido_pertenece" cascade="delete">
+							<key>
+							
+								
+								<column name="FK_idPedido_idPedido"/>
+					      	</key>
+							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.LineaPedidoNH"/>
+					    </bag>
+					
+			
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="PedidoNHReadAllHQL">from PedidoNH</query>
+		</hibernate-mapping>
+	

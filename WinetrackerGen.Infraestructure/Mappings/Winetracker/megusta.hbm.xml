@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WinetrackerGen.Infraestructure"
+		                   namespace="WinetrackerGen.Infraestructure.EN.Winetracker">
+		    
+		    
+			
+				<class name="MegustaNH" table="Megusta"> 
+				  	
+						<id name="Id" column="idMegusta" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+			
+			
+		  			
+						<many-to-one name="Usuario_pone" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
+								<column name="FK_attribute_idUsuario"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Comentario_tiene" class="WinetrackerGen.Infraestructure.EN.Winetracker.ComentarioNH" >	
+								<column name="FK_idComentario_idComentario"/> 
+						</many-to-one>
+											 					
+			
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="MegustaNHReadAllHQL">from MegustaNH</query>
+		</hibernate-mapping>
+	

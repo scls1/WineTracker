@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+		  <ItemGroup>
+		  
+	<EmbeddedResource Include="Mappings\Winetracker\usuario.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Winetracker\articulo.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Winetracker\comentario.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Winetracker\valoracion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Winetracker\pedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Winetracker\megusta.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Winetracker\lineapedido.hbm.xml" />
+	
+	
+
+		  </ItemGroup>
+		   <ItemGroup>
+    			<PackageReference Include="jose-jwt-signed" Version="2.3.0" />
+   				<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+   				<PackageReference Include="NHibernate" Version="5.5.2" />
+   				<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+   				
+   				<!--  /*PROTECTED REGION ID(externalLibraries) ENABLED START*/ -->
+   				<!--  /*PROTECTED REGION END*/ -->
+  		  </ItemGroup>
+		  <ItemGroup>
+		    <Content Include="hibernate.cfg.xml">
+		      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		    </Content>
+		  </ItemGroup>
+		  <ItemGroup>
+   			 <ProjectReference Include="..\WinetrackerGen.ApplicationCore\WinetrackerGen.ApplicationCore.csproj"/>
+   		  </ItemGroup>
+		</Project>

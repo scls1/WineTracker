@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WinetrackerGen.Infraestructure"
+		                   namespace="WinetrackerGen.Infraestructure.EN.Winetracker">
+		    
+		    
+			
+				<class name="ValoracionNH" table="Valoracion"> 
+				  	
+						<id name="Id" column="idValoracion" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Valoracion" type="integer"> 
+						<column name="valoracion"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<many-to-one name="Articulo_valorado" class="WinetrackerGen.Infraestructure.EN.Winetracker.ArticuloNH" >	
+								<column name="FK_id_idArticulo"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Usuario_valora" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
+								<column name="FK_attribute_idUsuario"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ValoracionNHReadAllHQL">from ValoracionNH</query>
+		</hibernate-mapping>
+	

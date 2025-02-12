@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WinetrackerGen.Infraestructure"
+		                   namespace="WinetrackerGen.Infraestructure.EN.Winetracker">
+		    
+		    
+			
+				<class name="ArticuloNH" table="Articulo"> 
+						<id name="Id" column="id"/> 
+			
+					
+					<property name="Nombre" type="string"> 
+						<column name="nombre"  not-null="true"/>
+					</property>
+					<property name="Descripcion" type="string"> 
+						<column name="descripcion"  not-null="true"/>
+					</property>
+					<property name="Tipo_vino" > 
+						<column name="tipo_vino"  not-null="true"/>
+					</property>
+					<property name="Tipo_uva" > 
+						<column name="tipo_uva"  not-null="true"/>
+					</property>
+					<property name="Region" > 
+						<column name="region"  not-null="true"/>
+					</property>
+					<property name="Precio" type="float"> 
+						<column name="precio"  not-null="true"/>
+					</property>
+					<property name="Maridaje" > 
+						<column name="maridaje"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Vendedor_publica" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
+								<column name="FK_attribute_idVendedor"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="Comentario_pertenece" >
+							<key>
+							
+								
+								<column name="FK_id_idArticulo"/>
+					      	</key>
+							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.ComentarioNH"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Valoracion_articulo" >
+							<key>
+							
+								
+								<column name="FK_id_idArticulo"/>
+					      	</key>
+							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.ValoracionNH"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Usuarios_favoritos" table="[articulo_0_usuario_0]"  >
+							<key>
+								
+									<column name="FK_id_idArticulo_0"/> 
+							</key>
+      						<many-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH">
+									<column name="FK_attribute_idUsuarios_favoritos"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<bag name="LineaPedido_articulo" >
+							<key>
+							
+								
+								<column name="FK_id_idArticulo"/>
+					      	</key>
+							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.LineaPedidoNH"/>
+					    </bag>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ArticuloNHReadAllHQL">from ArticuloNH</query>
+		</hibernate-mapping>
+	
