@@ -122,6 +122,21 @@ public void ModifyDefault (ArticuloEN articulo)
 
 
 
+
+                articuloNH.Stock = articulo.Stock;
+
+
+                articuloNH.ValoracionMedia = articulo.ValoracionMedia;
+
+
+                articuloNH.NumValoraciones = articulo.NumValoraciones;
+
+
+                articuloNH.ValoracionTotal = articulo.ValoracionTotal;
+
+
+                articuloNH.Foto = articulo.Foto;
+
                 session.Update (articuloNH);
                 SessionCommit ();
         }
@@ -151,7 +166,7 @@ public int New_ (ArticuloEN articulo)
                 if (articulo.Vendedor_publica != null) {
                         // Argumento OID y no colección.
                         articuloNH
-                        .Vendedor_publica = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), articulo.Vendedor_publica.Id);
+                        .Vendedor_publica = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), articulo.Vendedor_publica.Correo);
 
                         articuloNH.Vendedor_publica.Articulo_publicado
                         .Add (articuloNH);
@@ -203,6 +218,21 @@ public void Modify (ArticuloEN articulo)
 
 
                 articuloNH.Maridaje = articulo.Maridaje;
+
+
+                articuloNH.Stock = articulo.Stock;
+
+
+                articuloNH.ValoracionMedia = articulo.ValoracionMedia;
+
+
+                articuloNH.NumValoraciones = articulo.NumValoraciones;
+
+
+                articuloNH.ValoracionTotal = articulo.ValoracionTotal;
+
+
+                articuloNH.Foto = articulo.Foto;
 
                 session.Update (articuloNH);
                 SessionCommit ();
@@ -283,6 +313,187 @@ public System.Collections.Generic.IList<ArticuloEN> ReadAll (int first, int size
                                  SetFirstResult (first).SetMaxResults (size).List<ArticuloEN>();
                 else
                         result = session.CreateCriteria (typeof(ArticuloNH)).List<ArticuloEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ArticuloRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> DameArticuloPorVino (WinetrackerGen.ApplicationCore.Enumerated.Winetracker.VinosEnum ? p_tipoVino)
+{
+        System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> result;
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM ArticuloNH self where FROM ArticuloNH AS art WHERE art.Tipo_vino = :p_tipoVino";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("ArticuloNHdameArticuloPorVinoHQL");
+                query.SetParameter ("p_tipoVino", p_tipoVino);
+
+                result = query.List<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ArticuloRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> DameArticuloPorUva (WinetrackerGen.ApplicationCore.Enumerated.Winetracker.UvasEnum ? p_tipoUva)
+{
+        System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> result;
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM ArticuloNH self where FROM ArticuloNH AS art WHERE art.Tipo_uva = :p_tipoUva";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("ArticuloNHdameArticuloPorUvaHQL");
+                query.SetParameter ("p_tipoUva", p_tipoUva);
+
+                result = query.List<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ArticuloRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> DameArticuloPorMaridaje (WinetrackerGen.ApplicationCore.Enumerated.Winetracker.MaridajeEnum ? p_maridaje)
+{
+        System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> result;
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM ArticuloNH self where FROM ArticuloNH AS art WHERE art.Maridaje = :p_maridaje";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("ArticuloNHdameArticuloPorMaridajeHQL");
+                query.SetParameter ("p_maridaje", p_maridaje);
+
+                result = query.List<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ArticuloRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> DameArticuloPorRegion (WinetrackerGen.ApplicationCore.Enumerated.Winetracker.RegionEnum ? p_region)
+{
+        System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> result;
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM ArticuloNH self where FROM ArticuloNH AS art WHERE art.Region = :p_region";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("ArticuloNHdameArticuloPorRegionHQL");
+                query.SetParameter ("p_region", p_region);
+
+                result = query.List<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ArticuloRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> DameArticuloPorPrecio (float ? p_presupuesto)
+{
+        System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> result;
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM ArticuloNH self where FROM ArticuloNH AS art WHERE art.Precio <= :p_presupuesto";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("ArticuloNHdameArticuloPorPrecioHQL");
+                query.SetParameter ("p_presupuesto", p_presupuesto);
+
+                result = query.List<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ArticuloRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> DameArticuloPorUsuario (string p_usuario)
+{
+        System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> result;
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM ArticuloNH self where FROM ArticuloNH AS art WHERE art.Vendedor_publica.Correo = :p_usuario";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("ArticuloNHdameArticuloPorUsuarioHQL");
+                query.SetParameter ("p_usuario", p_usuario);
+
+                result = query.List<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN>();
                 SessionCommit ();
         }
 

@@ -1,0 +1,262 @@
+﻿@model List<WebApplication.Models.PedidoViewModel>
+<style>
+    .nav-tabs .nav-link.active {
+        font-weight: bold;
+        color: #000;
+        border-color: #dee2e6 #dee2e6 #fff;
+        text-decoration: none;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    :root {
+        --color-primary: #e06666; /* Color principal */
+        --color-secondary: #cc0000; /* Rojo intenso */
+        --color-accent-light: #d9ead3; /* Verde claro */
+        --color-accent-dark: #67F57A; /* Verde oscuro */
+        --color-accent-yellow: #fff2cc; /* Amarillo pálido */
+        --color-dark: #665151; /* Marrón oscuro */
+        --color-light: #ffffff; /* Blanco */
+    }
+
+    body {
+        font-family: "Times New Roman", Times, serif;
+        color: var(--secondary-color);
+        background-color: var( --color-accent-yellow);
+    }
+
+    a {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    .btn-envio {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-light);
+    }
+
+        .btn-envio:hover {
+            background-color: var(--color-accent-dark);
+        }
+
+    .btn-danger {
+        color: #ff;
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+
+    .nav-tabs .nav-link.active {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+    }
+
+    .footer {
+        background-color: var(--secondary-color);
+        color: var(--light-color);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: var(--primary-color);
+    }
+
+    h2 {
+        font-size: 36px;
+        color: var(--primary-color);
+    }
+
+    h3 {
+        font-size: 26px;
+        color: var(--primary-color);
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 1em;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin: 0 0 1em 1.5em;
+    }
+
+    ol {
+        list-style-type: decimal;
+        margin: 0 0 1em 1.5em;
+    }
+
+    .nav-tabs .nav-link {
+        color: var(--secondary-color);
+    }
+
+        .nav-tabs .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+    .img-thumbnail {
+        border-radius: 50%;
+        max-width: 150px;
+        height: auto;
+        border: 2px solid var(--primary-color);
+    }
+
+    /* Botón de envío con bordes redondeados */
+    .btn-envio {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-light);
+        border-radius: 15px; /* Bordes redondeados */
+        padding: 10px 20px;
+    }
+
+        .btn-envio:hover {
+            background-color: var(--color-accent-dark);
+        }
+
+    .btn-info {
+        background-color: var(--color-accent-light) !important;
+        color: var(--color-dark);
+        border-block-color: var(--color-accent-dark) !important;
+    }
+
+        .btn-info:hover {
+            background-color: var(--color-accent-dark) !important;
+            border-block-color: var(--color-accent-light) !important;
+            color: var(--color-accent-yellow) !important;
+            text-decoration: none;
+        }
+
+    .modal-body {
+        background-color: var(--color-accent-yellow) !important;
+        color: var(--color-dark); /* Texto en color oscuro para contraste */
+        border-radius: 5px; /* Opcional: bordes redondeados */
+        border-block-color: var(--color-accent-yellow) !important;
+    }
+
+    .modal-header {
+        background-color: var(--color-accent-yellow) !important;
+        color: var(--color-dark) !important; /* Texto en color oscuro para contraste */
+        border-radius: 5px; /* Opcional: bordes redondeados */
+        border-block-color: var(--color-accent-yellow) !important;
+    }
+
+    .modal-footer {
+        background-color: var(--color-accent-yellow) !important;
+        color: var(--color-dark); /* Texto en color oscuro para contraste */
+        border-radius: 5px; /* Opcional: bordes redondeados */
+        border-block-color: var(--color-accent-yellow) !important;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Usuario/Edit">Mi Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Articulo/MisVinos">Mis Vinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Mis Pedidos (@ViewBag.CantidadPedidos)</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Usuario/MisVentas">Mis Ventas (@ViewBag.CantidadPedidos)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Mostrar mensajes de éxito o error al principio -->
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Success"]
+        </div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+    <h1 class="mb-4">Mis Pedidos</h1>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Pedido ID</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pedido in Model)
+                {
+                    <tr>
+                        <td>@pedido.PedidoId</td>
+                        <td>@pedido.Fecha.ToString("dd/MM/yyyy")</td>
+                        <td>@pedido.Estado</td>
+                        <td>
+                            <a href="@Url.Action("Detalle", "Usuario", new { id = pedido.PedidoId })" class="btn btn-info btn-sm">Ver Detalles</a>
+
+                            @if (pedido.Estado != "cancelado")
+                            {
+                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#cancelModal-@pedido.PedidoId">
+                                    Cancelar Pedido
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- Modal de Confirmación para cada Pedido -->
+    @foreach (var pedido in Model)
+    {
+        <div class="modal fade" id="cancelModal-@pedido.PedidoId" tabindex="-1" role="dialog" aria-labelledby="cancelModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cancelModalLabel">Confirmar Cancelación</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Estás seguro de que deseas cancelar este pedido? Esta acción no se puede deshacer.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        <!-- Formulario con el método POST y el ID del pedido -->
+                        <form method="post" asp-controller="Usuario" asp-action="Cancelar" class="mx-2" title="Cancelar">
+                            <!-- Campo oculto para pasar el id del pedido -->
+                            <input type="hidden" name="id" value="@pedido.PedidoId" />
+
+                            <button type="submit" class="btn btn-danger">Cancelar Pedido</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>

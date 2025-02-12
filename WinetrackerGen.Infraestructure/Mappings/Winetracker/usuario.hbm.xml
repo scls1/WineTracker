@@ -6,14 +6,11 @@
 		    
 			
 				<class name="UsuarioNH" table="Usuario"> 
-						<id name="Id" column="attribute"/> 
+						<id name="Correo" column="correo"/> 
 			
 					
 					<property name="Nombre" type="string"> 
 						<column name="nombre"  not-null="true"/>
-					</property>
-					<property name="Correo" type="string"> 
-						<column name="correo"  unique="true" not-null="true"/>
 					</property>
 					<property name="Password" type="string"> 
 						<column name="password"  not-null="true"/>
@@ -30,13 +27,12 @@
 			
 			
 			
-			
 		  			
 						<bag name="Articulo_publicado" >
 							<key>
 							
 								
-								<column name="FK_attribute_idVendedor"/>
+								<column name="FK_correo_idVendedor"/>
 					      	</key>
 							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.ArticuloNH"/>
 					    </bag>
@@ -47,7 +43,7 @@
 							<key>
 							
 								
-								<column name="FK_attribute_idUsuario"/>
+								<column name="FK_correo_idUsuario"/>
 					      	</key>
 							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.PedidoNH"/>
 					    </bag>
@@ -57,7 +53,7 @@
 						<bag name="Articulo_favoritos" table="[articulo_0_usuario_0]" inverse="true" >
 							<key>
 								
-									<column name="FK_attribute_idUsuarios_favoritos"/> 
+									<column name="FK_correo_idUsuarios_favoritos"/> 
 							</key>
       						<many-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.ArticuloNH">
 									<column name="FK_id_idArticulo_0"/> 
@@ -69,7 +65,7 @@
 							<key>
 							
 								
-								<column name="FK_attribute_idUsuario"/>
+								<column name="FK_correo_idUsuario"/>
 					      	</key>
 							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.ValoracionNH"/>
 					    </bag>
@@ -80,7 +76,7 @@
 							<key>
 							
 								
-								<column name="FK_attribute_idUsuario"/>
+								<column name="FK_correo_idUsuario"/>
 					      	</key>
 							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.ComentarioNH"/>
 					    </bag>
@@ -91,13 +87,12 @@
 							<key>
 							
 								
-								<column name="FK_attribute_idUsuario"/>
+								<column name="FK_correo_idUsuario"/>
 					      	</key>
 							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.MegustaNH"/>
 					    </bag>
 					
 			
-					
 					
 					
 					

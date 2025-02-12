@@ -19,9 +19,14 @@ public void AumentarLike (int p_oid)
 {
         /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Comentario_aumentarLike) ENABLED START*/
 
-        // Write here your custom code...
+        ComentarioEN comentarioEN = _IComentarioRepository.ReadOID (p_oid);
 
-        throw new NotImplementedException ("Method AumentarLike() not yet implemented.");
+
+        comentarioEN.NumLikes += 1;
+
+
+        _IComentarioRepository.ModifyDefault (comentarioEN);
+
 
         /*PROTECTED REGION END*/
 }

@@ -1,0 +1,200 @@
+﻿@model WebApplication.Models.ArticuloViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .nav-tabs .nav-link.active {
+        font-weight: bold;
+        color: #000;
+        border-color: #dee2e6 #dee2e6 #fff;
+        text-decoration: none;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    :root {
+        --color-primary: #e06666; /* Color principal */
+        --color-secondary: #cc0000; /* Rojo intenso */
+        --color-accent-light: #d9ead3; /* Verde claro */
+        --color-accent-dark: #67F57A; /* Verde oscuro */
+        --color-accent-yellow: #fff2cc; /* Amarillo pálido */
+        --color-dark: #665151; /* Marrón oscuro */
+        --color-light: #ffffff; /* Blanco */
+    }
+
+    body {
+        font-family: "Times New Roman", Times, serif; /* Fuente original */
+        background-color: var(--color-accent-yellow);
+    }
+
+    h1 {
+        font-size: 36px;
+        color: var(--color-primary);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        text-align: center;
+        color: var(--color-dark);
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-weight: bold;
+        color: var(--color-dark);
+    }
+
+    .form-control {
+        border: 1px solid var(--color-primary);
+        border-radius: 5px;
+        padding: 8px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--color-accent-dark);
+            box-shadow: 0 0 5px var(--color-accent-dark);
+        }
+
+    .btn-primary {
+        background-color: var(--color-accent-dark);
+        border-color: var(--color-accent-dark);
+        color: var(--color-light);
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: var(--color-accent-light);
+            border-color: var(--color-accent-light);
+            color: var(--color-dark);
+        }
+
+    .text-danger {
+        color: var(--color-secondary);
+        font-size: 14px;
+    }
+
+    form {
+        background: var(--color-light);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar {
+        padding: auto !important;
+        background-color: #d9ead3;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .header {
+        background-color: var(--color-accent-light);
+        padding: 0; /* Elimina cualquier padding en la cabecera */
+        margin: 0; /* Asegura que no haya márgenes */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px; /* Ajusta la altura para una cabecera compacta */
+    }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: var(--color-dark);
+        }
+
+        .header input[type="text"] {
+            border: 1px solid var(--color-primary);
+            border-radius: 5px;
+
+            width: 300px;
+            margin-right: 20px; /* Espaciado lateral derecho */
+        }
+</style>
+<h1>Editar Artículo</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Campo oculto para el ID del artículo -->
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoVino" class="control-label"></label>
+                <select asp-for="TipoVino" class="form-control" asp-items="ViewBag.TipoVinoOptions"></select>
+                <span asp-validation-for="TipoVino" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoUva" class="control-label"></label>
+                <select asp-for="TipoUva" class="form-control" asp-items="ViewBag.TipoUvaOptions"></select>
+                <span asp-validation-for="TipoUva" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Region" class="control-label"></label>
+                <select asp-for="Region" class="form-control" asp-items="ViewBag.RegionOptions"></select>
+                <span asp-validation-for="Region" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Maridaje" class="control-label"></label>
+                <select asp-for="Maridaje" class="form-control" asp-items="ViewBag.MaridajeOptions"></select>
+                <span asp-validation-for="Maridaje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Foto" class="control-label"></label>
+                <input asp-for="Foto" class="form-control" type="file" />
+                <span asp-validation-for="Foto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stock" class="control-label"></label>
+                <input asp-for="Stock" class="form-control" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

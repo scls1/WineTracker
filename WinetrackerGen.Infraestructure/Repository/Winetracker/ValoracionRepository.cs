@@ -138,7 +138,7 @@ public int New_ (ValoracionEN valoracion)
                 if (valoracion.Usuario_valora != null) {
                         // Argumento OID y no colección.
                         valoracionNH
-                        .Usuario_valora = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), valoracion.Usuario_valora.Id);
+                        .Usuario_valora = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), valoracion.Usuario_valora.Correo);
 
                         valoracionNH.Usuario_valora.Valoracion_usuario
                         .Add (valoracionNH);
@@ -213,6 +213,62 @@ public void Destroy (int id
         {
                 SessionClose ();
         }
+}
+
+//Sin e: ReadOID
+//Con e: ValoracionEN
+public ValoracionEN ReadOID (int id
+                             )
+{
+        ValoracionEN valoracionEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                valoracionEN = (ValoracionEN)session.Get (typeof(ValoracionNH), id);
+                SessionCommit ();
+        }
+
+        catch (Exception) {
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return valoracionEN;
+}
+
+public System.Collections.Generic.IList<ValoracionEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<ValoracionEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(ValoracionNH)).
+                                 SetFirstResult (first).SetMaxResults (size).List<ValoracionEN>();
+                else
+                        result = session.CreateCriteria (typeof(ValoracionNH)).List<ValoracionEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ValoracionRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
 }
 }
 }

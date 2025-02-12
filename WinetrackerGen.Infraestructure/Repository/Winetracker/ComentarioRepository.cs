@@ -142,7 +142,7 @@ public int New_ (ComentarioEN comentario)
                 if (comentario.Usuario_comenta != null) {
                         // Argumento OID y no colección.
                         comentarioNH
-                        .Usuario_comenta = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), comentario.Usuario_comenta.Id);
+                        .Usuario_comenta = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), comentario.Usuario_comenta.Correo);
 
                         comentarioNH.Usuario_comenta.EsPuesto
                         .Add (comentarioNH);
@@ -221,5 +221,95 @@ public void Destroy (int id
                 SessionClose ();
         }
 }
+
+//Sin e: ReadOID
+//Con e: ComentarioEN
+public ComentarioEN ReadOID (int id
+                             )
+{
+        ComentarioEN comentarioEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                comentarioEN = (ComentarioEN)session.Get (typeof(ComentarioNH), id);
+                SessionCommit ();
+        }
+
+        catch (Exception) {
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return comentarioEN;
 }
+
+public System.Collections.Generic.IList<ComentarioEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<ComentarioEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(ComentarioNH)).
+                                 SetFirstResult (first).SetMaxResults (size).List<ComentarioEN>();
+                else
+                        result = session.CreateCriteria (typeof(ComentarioNH)).List<ComentarioEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                        throw;
+                else throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException ("Error in ComentarioRepository.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+
+        public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> DameComentarioPorArticulo(int? p_articulo)
+        {
+            System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> result = null;
+
+            try
+            {
+                SessionInitializeTransaction();
+
+                // Crear el criterio para obtener los comentarios relacionados con el artículo
+                result = session.CreateCriteria(typeof(ComentarioNH))
+                                .CreateAlias("Articulo_tiene", "articulo") // Relacionar Comentario con Articulo
+                                .CreateAlias("Usuario_comenta", "usuario") // Relacionar Comentario con Usuario
+                                .Add(Restrictions.Eq("articulo.Id", p_articulo)) // Filtrar por ID del artículo
+                                .List<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN>();
+
+                SessionCommit();
+            }
+            catch (Exception ex)
+            {
+                SessionRollBack();
+                if (ex is WinetrackerGen.ApplicationCore.Exceptions.ModelException)
+                    throw;
+                else
+                    throw new WinetrackerGen.ApplicationCore.Exceptions.DataLayerException("Error en ComentarioRepository.", ex);
+            }
+            finally
+            {
+                SessionClose();
+            }
+
+            return result;
+        }
+
+    }
 }

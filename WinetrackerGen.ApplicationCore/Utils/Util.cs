@@ -1,20 +1,30 @@
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace WinetrackerGen.ApplicationCore.Utils
 {
 public class Util
 {
-public static string GetEncondeMD5 (string password)
-{
-        System.Security.Cryptography.MD5 md5;
-        md5 = new System.Security.Cryptography.MD5CryptoServiceProvider ();
-        Byte[] encodedBytes = md5.ComputeHash (ASCIIEncoding.Default.GetBytes (password));
-        return System.Text.RegularExpressions.Regex.Replace (BitConverter.ToString (encodedBytes).ToLower (), @"-", "");
-}
+        public static string GetEncondeMD5(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                throw new ArgumentException("La contraseña no puede estar vacía.");
+            }
 
-public static string Decode (string token)
+            using (var md5 = MD5.Create())
+            {
+                var inputBytes = Encoding.ASCII.GetBytes(input);
+                var hashBytes = md5.ComputeHash(inputBytes);
+
+                return Convert.ToHexString(hashBytes);
+            }
+        }
+
+
+        public static string Decode (string token)
 {
         string json = Jose.JWT.Decode (token, Utils.Util.getKey ());
 

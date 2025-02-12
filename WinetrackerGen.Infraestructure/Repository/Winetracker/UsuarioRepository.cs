@@ -39,7 +39,7 @@ public void setSessionCP (GenericSessionCP session)
 }
 
 
-public UsuarioEN ReadOIDDefault (int id
+public UsuarioEN ReadOIDDefault (string correo
                                  )
 {
         UsuarioEN usuarioEN = null;
@@ -47,7 +47,7 @@ public UsuarioEN ReadOIDDefault (int id
         try
         {
                 SessionInitializeTransaction ();
-                usuarioEN = (UsuarioEN)session.Get (typeof(UsuarioNH), id);
+                usuarioEN = (UsuarioEN)session.Get (typeof(UsuarioNH), correo);
                 SessionCommit ();
         }
 
@@ -95,12 +95,9 @@ public void ModifyDefault (UsuarioEN usuario)
         try
         {
                 SessionInitializeTransaction ();
-                UsuarioNH usuarioNH = (UsuarioNH)session.Load (typeof(UsuarioNH), usuario.Id);
+                UsuarioNH usuarioNH = (UsuarioNH)session.Load (typeof(UsuarioNH), usuario.Correo);
 
                 usuarioNH.Nombre = usuario.Nombre;
-
-
-                usuarioNH.Correo = usuario.Correo;
 
 
                 usuarioNH.Password = usuario.Password;
@@ -136,7 +133,7 @@ public void ModifyDefault (UsuarioEN usuario)
 }
 
 
-public int New_ (UsuarioEN usuario)
+public string New_ (UsuarioEN usuario)
 {
         UsuarioNH usuarioNH = new UsuarioNH (usuario);
 
@@ -161,7 +158,7 @@ public int New_ (UsuarioEN usuario)
                 SessionClose ();
         }
 
-        return usuarioNH.Id;
+        return usuarioNH.Correo;
 }
 
 public void Modify (UsuarioEN usuario)
@@ -169,12 +166,9 @@ public void Modify (UsuarioEN usuario)
         try
         {
                 SessionInitializeTransaction ();
-                UsuarioNH usuarioNH = (UsuarioNH)session.Load (typeof(UsuarioNH), usuario.Id);
+                UsuarioNH usuarioNH = (UsuarioNH)session.Load (typeof(UsuarioNH), usuario.Correo);
 
                 usuarioNH.Nombre = usuario.Nombre;
-
-
-                usuarioNH.Correo = usuario.Correo;
 
 
                 usuarioNH.Password = usuario.Password;
@@ -202,13 +196,13 @@ public void Modify (UsuarioEN usuario)
                 SessionClose ();
         }
 }
-public void Destroy (int id
+public void Destroy (string correo
                      )
 {
         try
         {
                 SessionInitializeTransaction ();
-                UsuarioNH usuarioNH = (UsuarioNH)session.Load (typeof(UsuarioNH), id);
+                UsuarioNH usuarioNH = (UsuarioNH)session.Load (typeof(UsuarioNH), correo);
                 session.Delete (usuarioNH);
                 SessionCommit ();
         }
@@ -229,7 +223,7 @@ public void Destroy (int id
 
 //Sin e: ReadOID
 //Con e: UsuarioEN
-public UsuarioEN ReadOID (int id
+public UsuarioEN ReadOID (string correo
                           )
 {
         UsuarioEN usuarioEN = null;
@@ -237,7 +231,7 @@ public UsuarioEN ReadOID (int id
         try
         {
                 SessionInitializeTransaction ();
-                usuarioEN = (UsuarioEN)session.Get (typeof(UsuarioNH), id);
+                usuarioEN = (UsuarioEN)session.Get (typeof(UsuarioNH), correo);
                 SessionCommit ();
         }
 

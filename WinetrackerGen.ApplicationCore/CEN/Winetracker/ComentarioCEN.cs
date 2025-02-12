@@ -30,39 +30,6 @@ public IComentarioRepository get_IComentarioRepository ()
         return this._IComentarioRepository;
 }
 
-public int New_ (int p_numLikes, string p_comentario, int p_articulo_tiene, int p_usuario_comenta)
-{
-        ComentarioEN comentarioEN = null;
-        int oid;
-
-        //Initialized ComentarioEN
-        comentarioEN = new ComentarioEN ();
-        comentarioEN.NumLikes = p_numLikes;
-
-        comentarioEN.Comentario = p_comentario;
-
-
-        if (p_articulo_tiene != -1) {
-                // El argumento p_articulo_tiene -> Property articulo_tiene es oid = false
-                // Lista de oids id
-                comentarioEN.Articulo_tiene = new WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN ();
-                comentarioEN.Articulo_tiene.Id = p_articulo_tiene;
-        }
-
-
-        if (p_usuario_comenta != -1) {
-                // El argumento p_usuario_comenta -> Property usuario_comenta es oid = false
-                // Lista de oids id
-                comentarioEN.Usuario_comenta = new WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN ();
-                comentarioEN.Usuario_comenta.Id = p_usuario_comenta;
-        }
-
-
-
-        oid = _IComentarioRepository.New_ (comentarioEN);
-        return oid;
-}
-
 public void Modify (int p_Comentario_OID, int p_numLikes, string p_comentario)
 {
         ComentarioEN comentarioEN = null;
@@ -81,6 +48,27 @@ public void Destroy (int id
                      )
 {
         _IComentarioRepository.Destroy (id);
+}
+
+public ComentarioEN ReadOID (int id
+                             )
+{
+        ComentarioEN comentarioEN = null;
+
+        comentarioEN = _IComentarioRepository.ReadOID (id);
+        return comentarioEN;
+}
+
+public System.Collections.Generic.IList<ComentarioEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<ComentarioEN> list = null;
+
+        list = _IComentarioRepository.ReadAll (first, size);
+        return list;
+}
+public System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> DameComentarioPorArticulo (int ? p_articulo)
+{
+        return _IComentarioRepository.DameComentarioPorArticulo (p_articulo);
 }
 }
 }

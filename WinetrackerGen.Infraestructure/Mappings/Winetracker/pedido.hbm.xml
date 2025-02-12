@@ -24,7 +24,7 @@
 			
 		  			
 						<many-to-one name="Comprador" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
-								<column name="FK_attribute_idUsuario"/> 
+								<column name="FK_correo_idUsuario"/> 
 						</many-to-one>
 											 					
 			

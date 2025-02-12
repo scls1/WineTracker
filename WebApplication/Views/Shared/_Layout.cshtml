@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif; /* Fuente aplicada al cuerpo */
+        }
+
+        .navbar {
+            padding: 10px 20px;
+            background-color: #d9ead3; /* Fondo verde claro */
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+        }
+
+            .navbar-brand:hover {
+                color: #e06666; /* Verde destacado */
+                text-decoration: none; /* Sin subrayado */
+            }
+
+        .search-bar input {
+            border-radius: 20px;
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            width: 100%;
+            transition: all 0.3s;
+            font-family: "Times New Roman", Times, serif; /* Fuente aplicada al input */
+        }
+
+            .search-bar input:focus {
+                border-color: #67F57A;
+                box-shadow: 0 0 5px rgba(103, 245, 122, 0.5);
+                outline: none;
+            }
+
+        .icon-buttons a, .icon-buttons button {
+            background: none;
+            border: none;
+            color: #6c757d; /* Color inicial */
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+            text-decoration: none; /* Sin subrayado */
+            font-family: "Times New Roman", Times, serif; /* Fuente aplicada a iconos */
+        }
+
+            .icon-buttons a:hover, .icon-buttons button:hover {
+                color: #e06666; /* Verde destacado */
+                text-decoration: none; /* Sin subrayado */
+            }
+
+        /* Configuración de la barra de búsqueda */
+        .search-overlay {
+            display: none; /* Oculto por defecto */
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 80vh; /* O casi toda la altura */
+            background: #fff;
+            z-index: 1000; /* Encima de otros elementos */
+            border: 1px solid #ddd;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+            .search-overlay.active {
+                display: block;
+            }
+
+        /* Resultados individuales */
+        .search-results {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+            .search-results .card {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                transition: transform 0.2s;
+            }
+
+                .search-results .card:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                }
+
+            .search-results img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                margin-right: 10px;
+                border-radius: 5px;
+            }
+
+        body.overflow-hidden {
+            overflow: hidden; /* Bloquea el desplazamiento del fondo */
+        }
+
+        /* Estilos adicionales si es necesario para mejorar la apariencia */
+        .search-overlay .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Ajustamos la imagen para que tenga más altura */
+        .search-overlay .card-img-top {
+            height: 320px; /* Ajusta la altura según lo que necesites */
+            object-fit: cover; /* Asegura que la imagen no se deforme */
+        }
+
+        .search-overlay .card-body {
+            padding: 10px;
+        }
+
+        .search-overlay .card-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .search-overlay .card-text {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+            .search-overlay .card-text.text-end {
+                text-align: end;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+
+        .search-overlay {
+            display: none; /* Oculto por defecto */
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 80vh; /* O casi toda la altura */
+            background: #fff;
+            z-index: 1000; /* Encima de otros elementos */
+            border: 1px solid #ddd;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+            .search-overlay.active {
+                display: block;
+            }
+
+        .enlace {
+            text-decoration: none;
+        }
+
+        .price-button {
+            position: absolute; /* Posiciona el botón en la parte inferior derecha */
+            bottom: 10px; /* Alineado al fondo de la tarjeta */
+            right: 10px; /* Alineado a la derecha */
+            padding: 3px 7px;
+            background-color: #28a745; /* Fondo verde */
+            color: white;
+            border: none;
+            border-radius: 50px; /* Bordes redondeados */
+            font-size: 0.6rem;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+            /* Efecto de hover para el precio */
+            .price-button:hover {
+                background-color: #218838; /* Color más oscuro al pasar el ratón */
+                transform: scale(1.05); /* Agrandar ligeramente el botón */
+            }
+
+
+        :root {
+            --color-primary: #e06666; /* Color principal */
+            --color-secondary: #cc0000; /* Rojo intenso */
+            --color-accent-light: #d9ead3; /* Verde claro */
+            --color-accent-dark: #67F57A; /* Verde oscuro */
+            --color-accent-yellow: #fff2cc; /* Amarillo pálido */
+            --color-dark: #665151; /* Marrón oscuro */
+            --color-light: #ffffff; /* Blanco */
+        }
+
+        html, body {
+            height: 100%; /* Asegura que ocupen toda la altura de la ventana */
+            margin: 0;
+            display: flex;
+            flex-direction: column; /* Organiza los elementos en columna */
+        }
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* El contenido principal crece automáticamente */
+        main {
+            flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+        }
+
+        /* Estilo del footer */
+        footer {
+            background-color: var(--color-accent-light); /* Verde claro */
+            color: var(--color-dark); /* Texto oscuro */
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 14px;
+            width: 100%;
+            margin-top: auto;
+        }
+
+            footer a {
+                color: var(--color-dark);
+                text-decoration: none;
+                margin: 0 5px;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light shadow-sm border-bottom">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="/imagenes/logosolo_t.png" alt="Logo" style="height: 50px; margin-right: 10px;">
+                    WineTracker
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="search-bar flex-grow-1 mx-3 position-relative">
+                        <input type="text" id="searchBox" class="form-control" placeholder="Buscar">
+                        <div id="searchResultsContainer" class="search-overlay">
+                            <div id="searchResults" class="mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="icon-buttons d-flex align-items-center">
+                        <a asp-controller="Articulo" asp-action="Create" class="mx-2" title="Añadir">
+                            <i class="bi bi-plus-circle"></i>
+                        </a>
+                        <button class="mx-2" title="Salir">
+                            <a asp-controller="Usuario" asp-action="Logout" class="mx-2" title="Salir">
+                                <i class="bi bi-box-arrow-right"></i>
+                            </a>
+                        </button>
+                        <a asp-controller="Usuario" asp-action="Edit" class="mx-2" title="Perfil">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                        <button class="mx-2" title="Carrito">
+                            <a asp-controller="Pedidos" asp-action="Cesta" class="mx-2" title="Carrito">
+                                <i class="bi bi-cart"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div>&copy; 2024 - WineTracker</div>
+        <div>
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidad</a> |
+            <a asp-area="" asp-controller="Home" asp-action="Terms">Términos y Condiciones</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchBox = document.getElementById("searchBox");
+        const searchOverlay = document.getElementById("searchResultsContainer");
+        const searchResults = document.getElementById("searchResults");
+
+        searchBox.addEventListener("input", function () {
+            const query = searchBox.value.trim();
+
+            if (query) {
+                searchOverlay.classList.add("active");
+
+                // Llamada AJAX para obtener resultados
+                fetch(`/Articulo/SearchAjax?query=${encodeURIComponent(query)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.length === 0) {
+                            searchResults.innerHTML = "<p>No se encontraron resultados.</p>";
+                        } else {
+                            searchResults.innerHTML = `
+                                <div class="row">
+                                    ${data.map(articulo => `
+                                        <div class="col-md-4 mb-4">
+                                            <a class="enlace" href="/Articulo/Detalle/${articulo.id}">
+                                            <div class="card">
+                                                <img src="${articulo.imagen}" class="card-img-top" alt="${articulo.nombre}">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">${articulo.nombre}</h5>
+                                                    <p class="card-text">${articulo.region}</p>
+                                                    <p class="price-button text-end">${articulo.precio} €</p>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            `;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error al buscar:', error);
+                        searchResults.innerHTML = "<p>Ocurrió un error al realizar la búsqueda.</p>";
+                    });
+            } else {
+                searchOverlay.classList.remove("active");
+                searchResults.innerHTML = "";
+            }
+        });
+
+
+        // Cierra el recuadro si se hace clic fuera
+        document.addEventListener("click", function (e) {
+            if (!searchBox.contains(e.target) && !searchOverlay.contains(e.target)) {
+                searchOverlay.classList.remove("active");
+                searchResults.innerHTML = "";
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

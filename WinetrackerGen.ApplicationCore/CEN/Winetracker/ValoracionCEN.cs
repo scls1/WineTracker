@@ -48,5 +48,22 @@ public void Destroy (int id
 {
         _IValoracionRepository.Destroy (id);
 }
+
+public ValoracionEN ReadOID (int id
+                             )
+{
+        ValoracionEN valoracionEN = null;
+
+        valoracionEN = _IValoracionRepository.ReadOID (id);
+        return valoracionEN;
+}
+
+public System.Collections.Generic.IList<ValoracionEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<ValoracionEN> list = null;
+
+        list = _IValoracionRepository.ReadAll (first, size);
+        return list;
+}
 }
 }

@@ -1,0 +1,172 @@
+﻿@model WebApplication.Models.PedidoViewModel
+<style>
+    .nav-tabs .nav-link.active {
+        font-weight: bold;
+        color: #000;
+        border-color: #dee2e6 #dee2e6 #fff;
+        text-decoration: none;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    :root {
+        --color-primary: #e06666; /* Color principal */
+        --color-secondary: #cc0000; /* Rojo intenso */
+        --color-accent-light: #d9ead3; /* Verde claro */
+        --color-accent-dark: #67F57A; /* Verde oscuro */
+        --color-accent-yellow: #fff2cc; /* Amarillo pálido */
+        --color-dark: #665151; /* Marrón oscuro */
+        --color-light: #ffffff; /* Blanco */
+    }
+
+    body {
+        font-family: "Times New Roman", Times, serif;
+        color: var(--secondary-color);
+        background-color: var( --color-accent-yellow);
+    }
+
+    a {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    .btn-envio {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-light);
+    }
+
+        .btn-envio:hover {
+            background-color: var(--color-accent-dark);
+        }
+
+    .btn-danger {
+        color: var(--light-color);
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+
+    .nav-tabs .nav-link.active {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+    }
+
+    .footer {
+        background-color: var(--secondary-color);
+        color: var(--light-color);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: var(--primary-color);
+    }
+
+    h2 {
+        font-size: 36px;
+        color: var(--primary-color);
+    }
+
+    h3 {
+        font-size: 26px;
+        color: var(--primary-color);
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 1em;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin: 0 0 1em 1.5em;
+    }
+
+    ol {
+        list-style-type: decimal;
+        margin: 0 0 1em 1.5em;
+    }
+
+    .nav-tabs .nav-link {
+        color: var(--secondary-color);
+    }
+
+        .nav-tabs .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+    .img-thumbnail {
+        border-radius: 50%;
+        max-width: 150px;
+        height: auto;
+        border: 2px solid var(--primary-color);
+    }
+
+    /* Botón de envío con bordes redondeados */
+    .btn-envio {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-light);
+        border-radius: 15px; /* Bordes redondeados */
+        padding: 10px 20px;
+    }
+
+        .btn-envio:hover {
+            background-color: var(--color-accent-dark);
+        }
+</style>
+
+
+<div class="container mt-5">
+    <h1 class="mb-4">Detalles del Pedido</h1>
+
+    <p><strong>Pedido ID:</strong> @Model.PedidoId</p>
+    <p><strong>Fecha:</strong> @Model.Fecha.ToString("dd/MM/yyyy")</p>
+    <p><strong>Estado:</strong> @Model.Estado</p>
+
+    <h3 class="mt-4 mb-3">Artículos del Pedido</h3>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre del Artículo</th>
+                    <th>Cantidad</th>
+                    <th>Importe</th>
+                    <th>Foto</th> <!-- Nueva columna para la foto -->
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var linea in Model.LineasPedido)
+                {
+                    <tr>
+                        <td>@linea.NombreArticulo</td>
+                        <td>@linea.Cantidad</td>
+                        <td>@linea.Importe.ToString("C2")</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(linea.FotoArticulo))
+                            {
+                                <img src="@linea.FotoArticulo" class="img-fluid rounded" alt="Imagen del Artículo" style="max-height: 100px; width: auto;" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">No disponible</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <h4 class="mt-3">Total: @Model.ImporteTotal.ToString("C2")</h4>
+</div>

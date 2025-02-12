@@ -15,7 +15,7 @@ namespace WinetrackerGen.ApplicationCore.CEN.Winetracker
 {
 public partial class UsuarioCEN
 {
-public void AnyadirFavorito (int p_oid)
+public void AnyadirFavorito (string p_oid)
 {
         /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Usuario_anyadirFavorito) ENABLED START*/
 

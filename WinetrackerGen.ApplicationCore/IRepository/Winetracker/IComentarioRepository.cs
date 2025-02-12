@@ -25,5 +25,16 @@ void Modify (ComentarioEN comentario);
 
 void Destroy (int id
               );
+
+
+
+ComentarioEN ReadOID (int id
+                      );
+
+
+System.Collections.Generic.IList<ComentarioEN> ReadAll (int first, int size);
+
+
+System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> DameComentarioPorArticulo (int ? p_articulo);
 }
 }

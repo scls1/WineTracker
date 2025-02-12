@@ -1,0 +1,137 @@
+﻿@model WebApplication.Models.ArticuloViewModel
+
+@{
+    ViewData["Title"] = "Detalles del Artículo";
+}
+
+<div class="container mt-5">
+    <!-- Nombre del artículo -->
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">@Model.Nombre</h1>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="row">
+        <!-- Imagen -->
+        <div class="col-md-6 text-center">
+            <img src="@Url.Content("~/imagenes/")" alt="Imagen del artículo" class="img-fluid" style="max-width: 100%; height: auto;">
+        </div>
+
+        <!-- Detalles -->
+        <div class="col-md-6">
+            <!-- Valoración promedio -->
+            <div class="d-flex align-items-center mb-3">
+                <div class="me-2">
+                    @for (var i = 0; i < 5; i++)
+                    {
+                        if (i < (int)@Model.ValoracionMedia)
+                        {
+                            <i class="bi bi-star-fill" style="color: gold;"></i>
+                        }
+                        else
+                        {
+                            <i class="bi bi-star"></i>
+                        }
+                    }
+                </div>
+                <span class="text-muted">@Model.ValoracionMedia / 5</span>
+            </div>
+
+            <!-- Descripción -->
+            <p class="text-muted mb-3">@Model.Descripcion</p>
+
+            <!-- Precio y botones -->
+            <h3 class="text-success">@Model.Precio €</h3>
+
+            <!-- Botones para las acciones -->
+            <div class="d-flex">
+                <form asp-controller="Carrito" asp-action="AgregarArticulo" method="post">
+                    <input type="hidden" name="idArticulo" value="@Model.Id" />
+                    <button type="submit" class="btn btn-warning me-2">Añadir a la cesta</button>
+                </form>
+                <form asp-controller="Usuario" asp-action="AñadirFavorito" method="post">
+                    <input type="hidden" name="idArticulo" value="@Model.Id" />
+                    <button type="submit" class="btn btn-outline-primary">Añadir a favoritos</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comentarios -->
+    <div class="mt-5">
+        <h4>Comentarios (@Model.Comentarios.Count)</h4>
+        @foreach (var comentario in Model.Comentarios)
+        {
+            <div class="d-flex align-items-start mb-3">
+                <i class="bi bi-person-circle fs-3 me-3"></i>
+                <div>
+                    <p class="mb-0">@comentario</p>
+                </div>
+            </div>
+        }
+    </div>
+
+
+    <!-- Agregar comentario -->
+    <div class="mt-4">
+        <h5>Añadir un comentario</h5>
+        <form asp-controller="Comentario" asp-action="Agregar" method="post">
+            <div class="mb-3">
+                <label for="comentario" class="form-label">Comentario</label>
+                <textarea id="comentario" name="comentario" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="valoracion" class="form-label">Valoración</label>
+                <select id="valoracion" name="valoracion" class="form-select">
+                    <option value="1">1 estrella</option>
+                    <option value="2">2 estrellas</option>
+                    <option value="3">3 estrellas</option>
+                    <option value="4">4 estrellas</option>
+                    <option value="5">5 estrellas</option>
+                </select>
+            </div>
+            <input type="hidden" name="articuloId" value="@Model.Id" />
+            <input type="hidden" name="usuarioCorreo" value="@User.Identity.Name" />
+            <button type="submit" class="btn btn-primary">Comentar</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal para seleccionar cantidad -->
+<div class="modal fade" id="cantidadModal" tabindex="-1" aria-labelledby="cantidadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cantidadModalLabel">Seleccionar cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-controller="Carrito" asp-action="ActualizarCantidad" method="post">
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn btn-danger me-3" onclick="decrementarCantidad()">-</button>
+                        <input type="number" name="cantidad" value="1" class="form-control text-center" style="width: 70px;" id="cantidadInput" />
+                        <button type="button" class="btn btn-success ms-3" onclick="incrementarCantidad()">+</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Aceptar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function incrementarCantidad() {
+        const input = document.getElementById("cantidadInput");
+        input.value = parseInt(input.value) + 1;
+    }
+
+    function decrementarCantidad() {
+        const input = document.getElementById("cantidadInput");
+        if (parseInt(input.value) > 1) {
+            input.value = parseInt(input.value) - 1;
+        }
+    }
+</script>

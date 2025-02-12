@@ -1,0 +1,583 @@
+﻿@model WebApplication.Models.ArticuloViewModel
+
+@{
+    ViewData["Title"] = "Detalle del Vino";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .nav-tabs .nav-link.active {
+        font-weight: bold;
+        color: #000;
+        border-color: #dee2e6 #dee2e6 #fff;
+        text-decoration: none;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    :root {
+        --color-primary: #e06666; /* Color principal */
+        --color-secondary: #cc0000; /* Rojo intenso */
+        --color-accent-light: #d9ead3; /* Verde claro */
+        --color-accent-dark: #67F57A; /* Verde oscuro */
+        --color-accent-yellow: #fff2cc; /* Amarillo pálido */
+        --color-dark: #665151; /* Marrón oscuro */
+        --color-light: #ffffff; /* Blanco */
+    }
+
+    body {
+        font-family: "Times New Roman", Times, serif !important;
+        color: var(--secondary-color);
+        background-color: var( --color-accent-yellow);
+    }
+
+    a {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    .btn-envio {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-light);
+    }
+
+        .btn-envio:hover {
+            background-color: var(--color-accent-dark);
+        }
+
+    .btn-danger {
+        color: #FFF;
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+
+    .nav-tabs .nav-link.active {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+    }
+
+    .footer {
+        background-color: var(--secondary-color);
+        color: var(--light-color);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: var(--color-accent-light) !important;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: var(--primary-color);
+    }
+
+    h3 {
+        font-size: 26px;
+        color: var(--primary-color);
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 1em;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin: 0 0 1em 1.5em;
+    }
+
+    ol {
+        list-style-type: decimal;
+        margin: 0 0 1em 1.5em;
+    }
+
+    .nav-tabs .nav-link {
+        color: var(--secondary-color);
+    }
+
+        .nav-tabs .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+    .img-thumbnail {
+        border-radius: 50%;
+        max-width: 150px;
+        height: auto;
+        border: 2px solid var(--primary-color);
+    }
+
+    .btn-primary {
+        background-color: var(--color-accent-dark) !important;
+        border-color: var(--color-accent-dark) !important;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .text-primary {
+        color: var(--color-dark) !important;
+    }
+    /* Efecto hover para el botón "Aceptar" */
+    .btn-aceptar {
+        background-color: var(--color-accent-light);
+        color: var(--color-dark);
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-aceptar:hover {
+            background-color: var(--color-accent-dark);
+            color: white; /* Cambio de color del texto */
+            cursor: pointer; /* Cambia el cursor a una mano */
+            text-decoration: none;
+        }
+
+    .modal-body {
+        background-color: var(--color-accent-yellow) !important;
+        color: var(--color-dark); /* Texto en color oscuro para contraste */
+        border-radius: 5px; /* Opcional: bordes redondeados */
+        border-block-color: var(--color-accent-yellow) !important;
+    }
+
+    .modal-header {
+        background-color: var(--color-accent-yellow) !important;
+        color: var(--color-dark) !important; /* Texto en color oscuro para contraste */
+        border-radius: 5px; /* Opcional: bordes redondeados */
+        border-block-color: var(--color-accent-yellow) !important;
+    }
+
+    .modal-footer {
+        background-color: var(--color-accent-yellow) !important;
+        color: var(--color-dark); /* Texto en color oscuro para contraste */
+        border-radius: 5px; /* Opcional: bordes redondeados */
+        border-block-color: var(--color-accent-yellow) !important;
+    }
+
+    .btn-aceptar {
+        background-color: var(--color-accent-dark) !important; /* Verde oscuro */
+        color: white !important;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-aceptar:hover {
+            background-color: var(--color-accent-light) !important; /* Verde claro */
+            color: var(--color-dark) !important; /* Texto oscuro */
+            cursor: pointer;
+        }
+
+
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    .rating {
+        font-size: 1rem;
+    }
+
+        .rating span {
+            font-size: 1.1rem;
+            color: #6c757d;
+        }
+
+    .comentario-textarea {
+        border: 2px solid #dee2e6;
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 1rem;
+        background-color: #f8f9fa;
+        transition: all 0.3s ease;
+    }
+
+        .comentario-textarea:focus {
+            border-color: #007bff;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .comment-user-image {
+        width: 60px; /* Tamaño máximo de ancho */
+        height: 60px; /* Tamaño máximo de alto */
+        object-fit: cover; /* Asegura que la imagen se ajuste bien */
+        border-radius: 50%; /* Hace que la imagen sea circular */
+        border: 2px solid var(--primary-color); /* Agrega un borde elegante */
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    .rating {
+        font-size: 1rem;
+    }
+
+        .rating span {
+            font-size: 1.1rem;
+            color: #6c757d;
+        }
+
+    .comentario-textarea {
+        border: 2px solid #dee2e6;
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 1rem;
+        background-color: #f8f9fa;
+        transition: all 0.3s ease;
+    }
+
+        .comentario-textarea:focus {
+            border-color: #007bff;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+</style>
+
+<div class="container mt-5">
+    <div class="row g-5">
+        <!-- Imagen del artículo -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0">
+                <img src="@Url.Content("~/imagenes/" + Model.Foto)" alt="@Model.Nombre" class="card-img-top img-fluid rounded">
+            </div>
+        </div>
+
+        <!-- Información del artículo -->
+        <div class="col-md-6">
+            <h1 class="text-primary text-uppercase">@Model.Nombre</h1>
+
+            <!-- Valoración promedio -->
+            <section class="rating-section mb-3">
+                <div class="rating d-flex align-items-center">
+                    <div class="me-2 d-flex">
+                        @for (var i = 1; i <= 5; i++)
+                        {
+                            if (i <= Math.Floor(@Model.ValoracionMedia)) // Redondear hacia abajo para las estrellas completas
+                            {
+                                <i class="bi bi-star-fill me-1" style="color: gold; font-size: 1.5rem;"></i>
+                            }
+                            else
+                            {
+                                <i class="bi bi-star me-1" style="color: gold; font-size: 1.5rem;"></i>
+                            }
+                        }
+                    </div>
+                    <span class="text-muted ms-2">@Model.ValoracionMedia.ToString("0.00") / 5</span>
+                    <span class="text-muted ms-2">(@Model.NumValoraciones)</span>
+                </div>
+            </section>
+
+            <!-- Stock y descripción -->
+            <section class="info-section mb-3">
+                <p><strong>Disponibilidad:</strong> @Model.Stock en stock</p>
+                <p><strong>Descripción:</strong> @Model.Descripcion</p>
+            </section>
+
+            <!-- Información adicional -->
+            <section class="additional-info-section mb-3">
+                <p><strong>Tipo de vino:</strong> @Model.TipoVino</p>
+                <p><strong>Tipo de uva:</strong> @Model.TipoUva</p>
+                <p><strong>Región:</strong> @Model.Region</p>
+                <p><strong>Maridaje:</strong> @Model.Maridaje</p>
+            </section>
+
+            <!-- Formulario de valoración -->
+            @if (!(bool)ViewBag.Valorado) // Si no ha valorado
+            {
+                <section class="rating-form-section">
+                    <h4 class="text-secondary">Valora este artículo</h4>
+                    <form asp-controller="Articulo" asp-action="AddValoracion" method="post" class="d-flex align-items-center">
+                        <input type="number" name="Valoracion" id="Valoracion" class="form-control" min="1" max="5" required style="width: 60px; height: calc(1.5em + .75rem + 2px);">
+                        <button type="submit" class="btn btn-primary ms-2 btn-sm">
+                            <i class="bi bi-check"></i>
+                        </button>
+                        <input type="hidden" name="ArticuloId" value="@Model.Id">
+                    </form>
+                </section>
+            }
+            else
+            {
+                <p class="text-success">Ya has valorado este artículo.</p>
+            }
+            <br />
+
+            <!-- Precio y botón de compra -->
+            <section class="price-section d-flex align-items-center justify-content-between mb-4">
+                <h4 class="text-success fw-bold mb-0">@Model.Precio €</h4>
+                <form asp-controller="Usuario" asp-action="Cesta" method="post" class="d-inline-block">
+                    <input type="hidden" name="idArticulo" value="@Model.Id">
+                    <button type="button" class="btn btn-warning shadow-sm px-4 py-2" data-bs-toggle="modal" data-bs-target="#carritoModal">
+                        <i class="bi bi-cart-plus"></i> Añadir a la cesta
+                    </button>
+
+                </form>
+            </section>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- Sección de comentarios -->
+    <section class="comments-section mt-5">
+        <h4>Añadir un comentario</h4>
+        <form asp-controller="Articulo" asp-action="AddComment" method="post" class="mt-3">
+            <textarea name="TextoComentario" class="form-control comentario-textarea" rows="3" placeholder="Escribe tu comentario aquí..." required></textarea>
+            <button type="submit" class="btn btn-primary mt-3">
+                <i class="bi bi-send"></i> Enviar
+            </button>
+            <input type="hidden" name="ArticuloId" value="@Model.Id">
+        </form>
+
+        <!-- Listado de comentarios -->
+        <h3 class="mt-5">Comentarios (@Model.Comentarios.Count)</h3>
+        <div class="list-group">
+            @if (Model.Comentarios != null && Model.Comentarios.Any())
+            {
+                @for (int i = 0; i < Model.Comentarios.Count; i++)
+                {
+                    <div class="list-group-item list-group-item-action">
+                        <div class="d-flex align-items-start">
+                            
+                            @if (!string.IsNullOrEmpty(Model.Comentarios[i].Foto))
+                            {
+                                    <img src="@Url.Content("~/imagenes/" + Model.Comentarios[i].Foto)"
+                                         alt="Usuario"
+                                         class="comment-user-image me-3 shadow-sm">
+                            }
+                            else
+                            {
+                                    <img src="https://via.placeholder.com/50"
+                                         alt="Usuario"
+                                         class="rounded-circle me-3 shadow-sm">
+                            }
+
+                            <div>
+                                <!-- Nombre del usuario que hizo el comentario -->
+                                <h5 class="mb-1">@Model.Comentarios[i].NombreUsuario</h5>
+
+                                <!-- Texto del comentario -->
+                                <p class="mb-1 text-secondary">@Model.Comentarios[i].Texto</p>
+
+                                <!-- Información de los "likes" 
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-heart me-2"></i> @Model.ComentariosLikes[i] likes
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="list-group-item text-muted text-center">
+                    No hay comentarios disponibles para este artículo.
+                </div>
+            }
+        </div>
+
+    </section>
+
+    <!-- Modal para confirmar adición a la cesta -->
+ <div class="modal fade" id="confirmacionCarritoModal" tabindex="-1" aria-labelledby="confirmacionCarritoModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="confirmacionCarritoModalLabel">¡Artículo añadido!</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body text-center">
+                 <p>El artículo <strong>@Model.Nombre</strong> se ha añadido correctamente a tu cesta.</p>
+             </div>
+             <div class="modal-footer justify-content-center">
+                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+                 <a asp-controller="Pedidos" asp-action="Cesta" class="btn btn-success">Ir a la cesta</a>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <!-- Formulario en el modal para añadir al carrito -->
+ <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="carritoModalLabel">Añadir a la cesta</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <form asp-controller="Articulo" asp-action="AddToCart" method="post" id="addToCartForm">
+                 <div class="modal-body text-center">
+                     <p>¿Cuántas unidades de <strong>@Model.Nombre</strong> deseas añadir a tu cesta?</p>
+                     <input type="number" name="Cantidad" min="1" max="@Model.Stock" class="form-control mb-3" required>
+                     <input type="hidden" name="idArticulo" value="@Model.Id">
+                 </div>
+                 <div class="modal-footer justify-content-center">
+                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                     <button type="submit" class="btn btn-success">Añadir a la cesta</button>
+                 </div>
+             </form>
+         </div>
+     </div>
+ </div>
+
+ <!-- Modal de Éxito -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: var(--color-accent-dark); color: white;">
+                <h5 class="modal-title" id="successModalLabel">Éxito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p>@TempData["Success"]</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-aceptar" data-bs-dismiss="modal">
+                    Aceptar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal de Comentario Añadido -->
+<div class="modal fade" id="comentarioModal" tabindex="-1" aria-labelledby="comentarioModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: var(--color-accent-dark); color: white;">
+                <h5 class="modal-title" id="comentarioModalLabel">Comentario Añadido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p>¡Tu comentario ha sido añadido correctamente!</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-aceptar" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Valoración Añadida -->
+<div class="modal fade" id="valoracionModal" tabindex="-1" aria-labelledby="valoracionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: var(--color-accent-dark); color: white;">
+                <h5 class="modal-title" id="valoracionModalLabel">Valoración Añadida</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p>¡Gracias por valorar este artículo!</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-aceptar" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script>
+     // Detectar el evento de envío del formulario
+     document.getElementById('addToCartForm').addEventListener('submit', function (event) {
+         event.preventDefault(); // Evita el envío estándar del formulario
+         const form = this;
+
+         // Simula la llamada al controlador
+         fetch(form.action, {
+             method: form.method,
+             body: new FormData(form)
+         }).then(response => {
+             if (response.ok) {
+                 // Ocultar el modal actual y mostrar el modal de confirmación
+                 const carritoModal = bootstrap.Modal.getInstance(document.getElementById('carritoModal'));
+                 carritoModal.hide();
+
+                 const confirmacionModal = new bootstrap.Modal(document.getElementById('confirmacionCarritoModal'));
+                 confirmacionModal.show();
+             } else {
+                 alert("Ocurrió un error al añadir el artículo al carrito.");
+             }
+         }).catch(error => {
+             console.error("Error:", error);
+             alert("Ocurrió un error al añadir el artículo al carrito.");
+         });
+     });
+
+
+              document.addEventListener("DOMContentLoaded", function () {
+                var successMessage = '@(TempData["Success"] ?? "")';
+                if (successMessage) {
+                    var successModal = new bootstrap.Modal(document.getElementById('successModal'));
+                    successModal.show();
+                }
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                // Mostrar el modal de comentario si hay un mensaje
+                var comentarioMessage = '@(TempData["Comentario"] ?? "")';
+            if (comentarioMessage) {
+                    var comentarioModal = new bootstrap.Modal(document.getElementById('comentarioModal'));
+            comentarioModal.show();
+                }
+
+            // Mostrar el modal de valoración si hay un mensaje
+            var valoracionMessage = '@(TempData["Valoracion"] ?? "")';
+            if (valoracionMessage) {
+                    var valoracionModal = new bootstrap.Modal(document.getElementById('valoracionModal'));
+            valoracionModal.show();
+                }
+
+            });
+ </script>
+
+</div>
+
+
+
+
+
+

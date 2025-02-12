@@ -31,7 +31,7 @@
 			
 		  			
 						<many-to-one name="Usuario_comenta" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
-								<column name="FK_attribute_idUsuario"/> 
+								<column name="FK_correo_idUsuario"/> 
 						</many-to-one>
 											 					
 			
@@ -55,5 +55,6 @@
 		 </class>	
 		  
 		  <query name="ComentarioNHReadAllHQL">from ComentarioNH</query>
+		  <query name="ComentarioNHdameComentarioPorArticuloHQL"><![CDATA[FROM ComentarioNH AS c WHERE c.Articulo_tiene.Id = :p_articulo]]></query>
 		</hibernate-mapping>
 	

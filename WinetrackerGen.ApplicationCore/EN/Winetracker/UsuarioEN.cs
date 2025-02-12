@@ -6,13 +6,6 @@ namespace WinetrackerGen.ApplicationCore.EN.Winetracker
 public partial class UsuarioEN
 {
 /**
- *	Atributo id
- */
-private int id;
-
-
-
-/**
  *	Atributo nombre
  */
 private string nombre;
@@ -89,12 +82,6 @@ private WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum pro
 
 
 
-
-
-
-public virtual int Id {
-        get { return id; } set { id = value;  }
-}
 
 
 
@@ -178,27 +165,25 @@ public UsuarioEN()
 
 
 
-public UsuarioEN(int id, string nombre, string correo, String password, string foto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_publicado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.PedidoEN> pedido_comprado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_usuario, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> esPuesto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.MegustaEN> megusta_0, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum provincia
+public UsuarioEN(string correo, string nombre, String password, string foto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_publicado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.PedidoEN> pedido_comprado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_usuario, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> esPuesto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.MegustaEN> megusta_0, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum provincia
                  )
 {
-        this.init (Id, nombre, correo, password, foto, articulo_publicado, pedido_comprado, articulo_favoritos, valoracion_usuario, esPuesto, megusta_0, provincia);
+        this.init (Correo, nombre, password, foto, articulo_publicado, pedido_comprado, articulo_favoritos, valoracion_usuario, esPuesto, megusta_0, provincia);
 }
 
 
 public UsuarioEN(UsuarioEN usuario)
 {
-        this.init (usuario.Id, usuario.Nombre, usuario.Correo, usuario.Password, usuario.Foto, usuario.Articulo_publicado, usuario.Pedido_comprado, usuario.Articulo_favoritos, usuario.Valoracion_usuario, usuario.EsPuesto, usuario.Megusta_0, usuario.Provincia);
+        this.init (usuario.Correo, usuario.Nombre, usuario.Password, usuario.Foto, usuario.Articulo_publicado, usuario.Pedido_comprado, usuario.Articulo_favoritos, usuario.Valoracion_usuario, usuario.EsPuesto, usuario.Megusta_0, usuario.Provincia);
 }
 
-private void init (int id
-                   , string nombre, string correo, String password, string foto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_publicado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.PedidoEN> pedido_comprado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_usuario, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> esPuesto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.MegustaEN> megusta_0, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum provincia)
+private void init (string correo
+                   , string nombre, String password, string foto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_publicado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.PedidoEN> pedido_comprado, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ArticuloEN> articulo_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_usuario, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> esPuesto, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.MegustaEN> megusta_0, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum provincia)
 {
-        this.Id = id;
+        this.Correo = correo;
 
 
         this.Nombre = nombre;
-
-        this.Correo = correo;
 
         this.Password = password;
 
@@ -226,7 +211,7 @@ public override bool Equals (object obj)
         UsuarioEN t = obj as UsuarioEN;
         if (t == null)
                 return false;
-        if (Id.Equals (t.Id))
+        if (Correo.Equals (t.Correo))
                 return true;
         else
                 return false;
@@ -236,7 +221,7 @@ public override int GetHashCode ()
 {
         int hash = 13;
 
-        hash += this.Id.GetHashCode ();
+        hash += this.Correo.GetHashCode ();
         return hash;
 }
 }

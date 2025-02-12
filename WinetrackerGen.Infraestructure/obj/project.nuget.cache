@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NgjtfxZs4jY=",
+  "dgSpecHash": "nnURYPrJTCE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simao\\Desktop\\winetrackerGen\\WinetrackerGen.Infraestructure\\WinetrackerGen.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Simao\\source\\repos\\WineTracker\\WinetrackerGen.Infraestructure\\WinetrackerGen.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simao\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\Simao\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",

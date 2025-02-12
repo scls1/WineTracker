@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using WinetrackerGen.ApplicationCore.Exceptions;
 using WinetrackerGen.ApplicationCore.EN.Winetracker;
 using WinetrackerGen.ApplicationCore.IRepository.Winetracker;
-using System.Text.RegularExpressions;
+using WinetrackerGen.ApplicationCore.CP.Winetracker;
 
 
 /*PROTECTED REGION ID(usingWinetrackerGen.ApplicationCore.CEN.Winetracker_Usuario_new_) ENABLED START*/
@@ -14,50 +14,47 @@ using System.Text.RegularExpressions;
 
 namespace WinetrackerGen.ApplicationCore.CEN.Winetracker
 {
-    public partial class UsuarioCEN
-    {
-        public int New_(int p_id, string p_nombre, string p_correo, string p_password, string p_foto, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum p_provincia)
-        {
-            /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Usuario_new__customized) START*/
+public partial class UsuarioCEN
+{
+public string New_ (string p_nombre, string p_correo, String p_password, string p_foto, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.ProvinciasEnum p_provincia)
+{
+        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Usuario_new__customized) ENABLED START*/
 
-            UsuarioEN usuarioEN = null;
+        UsuarioEN usuarioEN = null;
 
-            int oid;
+        string oid;
 
-            //Initialized UsuarioEN
-            usuarioEN = new UsuarioEN();
-            usuarioEN.Id = p_id;
+        //Initialized UsuarioEN
+        usuarioEN = new UsuarioEN ();
 
-            usuarioEN.Nombre = p_nombre;
+        usuarioEN.Nombre = p_nombre;
 
-            if (EsCorreoValido(p_correo))
-            {
-
+            if (EsCorreoValido (p_correo)) {
                 usuarioEN.Correo = p_correo;
+            }
+            else{
+                throw new Exception("El formato del correo no es vï¿½lido.");
+            }
+
+        usuarioEN.Password = (Utils.Util.GetEncondeMD5(p_password));
+
+            if (p_foto != null)
+            {
+                usuarioEN.Foto = p_foto;
 
             }
             else
             {
-                throw new Exception("El formato del correo no es válido.");
+                usuarioEN.Foto = "default.png";
             }
-
-            usuarioEN.Password = p_password;
-
-            usuarioEN.Foto = p_foto;
 
             usuarioEN.Provincia = p_provincia;
 
-            //Call to UsuarioRepository
+        //Call to UsuarioRepository
 
-            oid = _IUsuarioRepository.New_(usuarioEN);
-            return oid;
-            /*PROTECTED REGION END*/
-        }
-
-        private bool EsCorreoValido(string p_correo)
-        {
-            string patron = @"^[A-Za-z0-9]+[A-Za-z0-9._-]*[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]+$";
-            return Regex.IsMatch(p_correo, patron);
-        }
-    }
+        oid = _IUsuarioRepository.New_ (usuarioEN);
+        return oid;
+        /*PROTECTED REGION END*/
+}
+}
 }

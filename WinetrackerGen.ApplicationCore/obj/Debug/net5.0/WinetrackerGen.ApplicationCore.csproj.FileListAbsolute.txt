@@ -1,3 +1,39 @@
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.deps.json
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfo.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\refint\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\ref\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.deps.json
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfo.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\refint\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\ref\WinetrackerGen.ApplicationCore.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.deps.json
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\refint\WinetrackerGen.ApplicationCore.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\ref\WinetrackerGen.ApplicationCore.dll
 C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.deps.json
 C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
 C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
@@ -10,15 +46,3 @@ C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetra
 C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\refint\WinetrackerGen.ApplicationCore.dll
 C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
 C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\ref\WinetrackerGen.ApplicationCore.dll
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.deps.json
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.AssemblyReference.cache
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfoInputs.cache
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.AssemblyInfo.cs
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.csproj.CoreCompileInputs.cache
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\refint\WinetrackerGen.ApplicationCore.dll
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
-C:\Users\Simao\Desktop\winetrackerGen\WinetrackerGen.ApplicationCore\obj\Debug\net5.0\ref\WinetrackerGen.ApplicationCore.dll

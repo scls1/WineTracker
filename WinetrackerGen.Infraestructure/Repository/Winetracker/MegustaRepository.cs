@@ -127,7 +127,7 @@ public int New_ (MegustaEN megusta)
                 if (megusta.Usuario_pone != null) {
                         // Argumento OID y no colección.
                         megustaNH
-                        .Usuario_pone = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), megusta.Usuario_pone.Id);
+                        .Usuario_pone = (WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN)session.Load (typeof(WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN), megusta.Usuario_pone.Correo);
 
                         megustaNH.Usuario_pone.Megusta_0
                         .Add (megustaNH);

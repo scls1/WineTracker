@@ -17,7 +17,7 @@ public partial class LineaPedidoCEN
 {
 public int New_ (int p_pedido_tiene, int p_articulo_pertenece, int p_cantidad, float p_importe)
 {
-        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_LineaPedido_new__customized) START*/
+        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_LineaPedido_new__customized) ENABLED START*/
 
         LineaPedidoEN lineaPedidoEN = null;
 
@@ -37,7 +37,10 @@ public int New_ (int p_pedido_tiene, int p_articulo_pertenece, int p_cantidad, f
                 lineaPedidoEN.Articulo_pertenece.Id = p_articulo_pertenece;
         }
 
+
+
         lineaPedidoEN.Cantidad = p_cantidad;
+
 
         lineaPedidoEN.Importe = p_importe;
 

@@ -30,6 +30,21 @@
 					<property name="Maridaje" > 
 						<column name="maridaje"  not-null="true"/>
 					</property>
+					<property name="Stock" type="integer"> 
+						<column name="stock"  not-null="true"/>
+					</property>
+					<property name="ValoracionMedia" type="float"> 
+						<column name="valoracionMedia"  not-null="true"/>
+					</property>
+					<property name="NumValoraciones" type="integer"> 
+						<column name="numValoraciones"  not-null="true"/>
+					</property>
+					<property name="ValoracionTotal" type="float"> 
+						<column name="valoracionTotal"  not-null="true"/>
+					</property>
+					<property name="Foto" type="string"> 
+						<column name="foto"  not-null="true"/>
+					</property>
 			
 			
 			
@@ -42,7 +57,7 @@
 			
 		  			
 						<many-to-one name="Vendedor_publica" class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH" >	
-								<column name="FK_attribute_idVendedor"/> 
+								<column name="FK_correo_idVendedor"/> 
 						</many-to-one>
 											 					
 			
@@ -75,7 +90,7 @@
 									<column name="FK_id_idArticulo_0"/> 
 							</key>
       						<many-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.UsuarioNH">
-									<column name="FK_attribute_idUsuarios_favoritos"/> 
+									<column name="FK_correo_idUsuarios_favoritos"/> 
       						</many-to-many>
     					</bag>
 			
@@ -88,6 +103,16 @@
 					      	</key>
 							<one-to-many class="WinetrackerGen.Infraestructure.EN.Winetracker.LineaPedidoNH"/>
 					    </bag>
+					
+			
+			
+			
+			
+			
+					
+					
+					
+					
 					
 					
 					
@@ -106,5 +131,11 @@
 		 </class>	
 		  
 		  <query name="ArticuloNHReadAllHQL">from ArticuloNH</query>
+		  <query name="ArticuloNHdameArticuloPorVinoHQL"><![CDATA[FROM ArticuloNH AS art WHERE art.Tipo_vino = :p_tipoVino]]></query>
+		  <query name="ArticuloNHdameArticuloPorUvaHQL"><![CDATA[FROM ArticuloNH AS art WHERE art.Tipo_uva = :p_tipoUva]]></query>
+		  <query name="ArticuloNHdameArticuloPorMaridajeHQL"><![CDATA[FROM ArticuloNH AS art WHERE art.Maridaje = :p_maridaje]]></query>
+		  <query name="ArticuloNHdameArticuloPorRegionHQL"><![CDATA[FROM ArticuloNH AS art WHERE art.Region = :p_region]]></query>
+		  <query name="ArticuloNHdameArticuloPorPrecioHQL"><![CDATA[FROM ArticuloNH AS art WHERE art.Precio <= :p_presupuesto]]></query>
+		  <query name="ArticuloNHdameArticuloPorUsuarioHQL"><![CDATA[FROM ArticuloNH AS art WHERE art.Vendedor_publica.Correo = :p_usuario]]></query>
 		</hibernate-mapping>
 	

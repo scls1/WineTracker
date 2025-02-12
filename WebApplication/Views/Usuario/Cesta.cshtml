@@ -1,0 +1,64 @@
+﻿@model List<WebApplication.Models.ArticuloViewModel>
+
+@{
+    ViewData["Title"] = "Tu Cesta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1 class="text-primary text-uppercase">Tu Cesta</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            <!-- Lista de artículos en la cesta -->
+            <div class="col-md-8">
+                @foreach (var item in Model)
+                {
+                    <div class="d-flex mb-4 align-items-center border-bottom pb-3">
+                        <!-- Imagen del artículo -->
+                        <img src="@Url.Content("~/imagenes/" + item.Foto)" alt="@item.Nombre" style="width: 120px; height: 80px; object-fit: cover;" class="me-3">
+
+                        <!-- Detalles del artículo -->
+                        <div class="flex-grow-1">
+                            <h5 class="fw-bold mb-1">@item.Nombre</h5>
+                            <p class="mb-2">Precio: @item.Precio €</p>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2">Cantidad:</span>
+                                <button class="btn btn-sm btn-outline-secondary me-2">-</button>
+                                <span>@item.Stock</span>
+                                <button class="btn btn-sm btn-outline-secondary ms-2">+</button>
+                            </div>
+                        </div>
+
+                        <!-- Botón de eliminar -->
+                        <button class="btn btn-danger btn-sm">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                }
+            </div>
+
+            <!-- Resumen de la compra -->
+            <div class="col-md-4">
+                <div class="border p-3">
+                    <button class="btn btn-danger w-100 mb-3">Vaciar cesta</button>
+                    <h5 class="text-center fw-bold mb-3">SUBTOTAL: 36 €</h5>
+                    <button class="btn btn-warning w-100">Confirmar compra</button>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info mt-4" role="alert">
+            Tu cesta está vacía.
+        </div>
+    }
+
+    <div class="mt-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+            <i class="bi bi-arrow-left"></i> Continuar Comprando
+        </a>
+    </div>
+</div>

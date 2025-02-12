@@ -1,0 +1,223 @@
+﻿@model WebApplication.Models.LoginUsuarioViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+<style>
+    .nav-tabs .nav-link.active {
+        font-weight: bold;
+        color: #000;
+        border-color: #dee2e6 #dee2e6 #fff;
+        text-decoration: none;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    :root {
+        --color-primary: #e06666; /* Color principal */
+        --color-secondary: #cc0000; /* Rojo intenso */
+        --color-accent-light: #d9ead3; /* Verde claro */
+        --color-accent-dark: #67F57A; /* Verde oscuro */
+        --color-accent-yellow: #fff2cc; /* Amarillo pálido */
+        --color-dark: #665151; /* Marrón oscuro */
+        --color-light: #ffffff; /* Blanco */
+    }
+
+    body {
+        font-family: "Times New Roman", Times, serif;
+        color: var(--secondary-color);
+        background-color: var( --color-accent-yellow);
+    }
+
+    a {
+        color: var(--color-dark);
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    .btn-envio {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-light);
+    }
+
+        .btn-envio:hover {
+            background-color: var(--color-accent-dark);
+        }
+
+    .btn-danger {
+        color: var(--light-color);
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+
+    .nav-tabs .nav-link.active {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+    }
+
+    .footer {
+        background-color: var(--secondary-color);
+        color: var(--light-color);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: var(--color-dark);
+    }
+
+    h2 {
+        font-size: 36px;
+        color: var(--color-dark);
+    }
+
+    h3 {
+        font-size: 26px;
+        color: var(--color-dark);
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 1em;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin: 0 0 1em 1.5em;
+    }
+
+    ol {
+        list-style-type: decimal;
+        margin: 0 0 1em 1.5em;
+    }
+
+    .nav-tabs .nav-link {
+        color: var(--secondary-color);
+    }
+
+        .nav-tabs .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+    .img-thumbnail {
+        border-radius: 50%;
+        max-width: 150px;
+        height: auto;
+        border: 2px solid var(--primary-color);
+    }
+
+    .btn-primary {
+        color: var(--light-color);
+        background-color: var(--color-accent-light);
+        border-color: var(--color-accent-dark);
+    }
+
+        .btn-primary:hover {
+            background-color: var(--color-accent-dark);
+            border-color: var(--color-accent-dark);
+        }
+
+    #regist {
+        color: var(--color-accent-dark) !important /* Color rojo para el usuario */
+    }
+
+    .btn-success {
+        background-color: var(--color-accent-light) !important /* Color rojo para el usuario */
+    }
+
+        .btn-success:hover {
+            background-color: var(--color-accent-dark) !important /* Color rojo para el usuario */
+        }
+</style>
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4" style="max-width: 400px; width: 100%;">
+        <!-- Contenedor de Logo y Títulos -->
+        <div class="d-flex justify-content-center align-items-center mb-3">
+            <!-- Logo -->
+            <img src="~/imagenes/logo.jpg" alt="Logo WineTracker" style="height: 130px; margin-right: 10px;">
+
+            <!-- Separador Vertical -->
+            <div style="border-left: 2px solid #e06666; height: 60px; margin-right: 10px;"></div>
+
+            <!-- Títulos -->
+            <div>
+                <h2 class="text-center m-0" style="font-size: 1.8rem;">Iniciar Sesión</h2>
+                <p class="text-center text-muted m-0">Por favor, identifíquese</p>
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- Formulario -->
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Correo" class="form-label"></label>
+                <input asp-for="Correo" class="form-control" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+
+        <div class="mt-3 text-center">
+            <p>
+                ¿No tienes cuenta?
+                <a asp-controller="Usuario" asp-action="Register" class="text-primary" id="regist">¡Regístrate!</a>
+            </p>
+        </div>
+    </div>
+</div>
+@if (TempData["Success"] != null)
+{
+    <div class="modal fade" id="registerSuccessModal" tabindex="-1" aria-labelledby="registerSuccessModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: var(--color-accent-dark); color: white;">
+                    <h5 class="modal-title" id="registerSuccessModalLabel">Éxito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    @TempData["Success"]
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    // Mostrar el modal si hay un mensaje de éxito
+    document.addEventListener("DOMContentLoaded", function () {
+        var successModal = document.getElementById('registerSuccessModal');
+        if (successModal) {
+            var modal = new bootstrap.Modal(successModal);
+            modal.show();
+        }
+    });
+</script>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

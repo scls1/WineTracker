@@ -15,9 +15,9 @@ namespace WinetrackerGen.ApplicationCore.CEN.Winetracker
 {
 public partial class MegustaCEN
 {
-public int New_ (int p_usuario_pone, int p_comentario_tiene)
+public int New_ (string p_usuario_pone, int p_comentario_tiene)
 {
-        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Megusta_new__customized) START*/
+        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Megusta_new__customized) ENABLED START*/
 
         MegustaEN megustaEN = null;
 
@@ -26,9 +26,9 @@ public int New_ (int p_usuario_pone, int p_comentario_tiene)
         //Initialized MegustaEN
         megustaEN = new MegustaEN ();
 
-        if (p_usuario_pone != -1) {
+        if (p_usuario_pone != null) {
                 megustaEN.Usuario_pone = new WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN ();
-                megustaEN.Usuario_pone.Id = p_usuario_pone;
+                megustaEN.Usuario_pone.Correo = p_usuario_pone;
         }
 
 

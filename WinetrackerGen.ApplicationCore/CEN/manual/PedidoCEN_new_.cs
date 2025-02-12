@@ -15,9 +15,9 @@ namespace WinetrackerGen.ApplicationCore.CEN.Winetracker
 {
 public partial class PedidoCEN
 {
-public int New_ (int p_comprador, Nullable<DateTime> p_fechaPedido)
+public int New_ (string p_comprador, Nullable<DateTime> p_fechaPedido)
 {
-        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Pedido_new__customized) START*/
+        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Pedido_new__customized) ENABLED START*/
 
         PedidoEN pedidoEN = null;
 
@@ -26,9 +26,9 @@ public int New_ (int p_comprador, Nullable<DateTime> p_fechaPedido)
         //Initialized PedidoEN
         pedidoEN = new PedidoEN ();
 
-        if (p_comprador != -1) {
+        if (p_comprador != null) {
                 pedidoEN.Comprador = new WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN ();
-                pedidoEN.Comprador.Id = p_comprador;
+                pedidoEN.Comprador.Correo = p_comprador;
         }
 
         pedidoEN.FechaPedido = p_fechaPedido;
@@ -37,9 +37,9 @@ public int New_ (int p_comprador, Nullable<DateTime> p_fechaPedido)
 
 
 
-            //Call to PedidoRepository
+        //Call to PedidoRepository
 
-            oid = _IPedidoRepository.New_ (pedidoEN);
+        oid = _IPedidoRepository.New_ (pedidoEN);
         return oid;
         /*PROTECTED REGION END*/
 }

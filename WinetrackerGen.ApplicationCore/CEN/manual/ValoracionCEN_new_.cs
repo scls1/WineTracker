@@ -15,9 +15,9 @@ namespace WinetrackerGen.ApplicationCore.CEN.Winetracker
 {
 public partial class ValoracionCEN
 {
-public int New_ (int p_valoracion, int p_articulo_valorado, int p_usuario_valora)
+public int New_ (int p_valoracion, int p_articulo_valorado, string p_usuario_valora)
 {
-        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Valoracion_new__customized) START*/
+        /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Valoracion_new__customized) ENABLED START*/
 
         ValoracionEN valoracionEN = null;
 
@@ -25,7 +25,13 @@ public int New_ (int p_valoracion, int p_articulo_valorado, int p_usuario_valora
 
         //Initialized ValoracionEN
         valoracionEN = new ValoracionEN ();
-        valoracionEN.Valoracion = p_valoracion;
+
+        if (p_valoracion < 0 || p_valoracion > 5) {
+                throw new ArgumentException ("La valoracion tiene que comprendida entre 0 y 5");
+        }
+        else{
+                valoracionEN.Valoracion = p_valoracion;
+        }
 
 
         if (p_articulo_valorado != -1) {
@@ -34,9 +40,9 @@ public int New_ (int p_valoracion, int p_articulo_valorado, int p_usuario_valora
         }
 
 
-        if (p_usuario_valora != -1) {
+        if (p_usuario_valora != null) {
                 valoracionEN.Usuario_valora = new WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN ();
-                valoracionEN.Usuario_valora.Id = p_usuario_valora;
+                valoracionEN.Usuario_valora.Correo = p_usuario_valora;
         }
 
         //Call to ValoracionRepository

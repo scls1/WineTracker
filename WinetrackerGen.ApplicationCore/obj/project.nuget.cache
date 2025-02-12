@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UNC/7IoVR3I=",
+  "dgSpecHash": "SLOw3c101dU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simao\\Desktop\\winetrackerGen\\WinetrackerGen.ApplicationCore\\WinetrackerGen.ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\Simao\\source\\repos\\WineTracker\\WinetrackerGen.ApplicationCore\\WinetrackerGen.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simao\\.nuget\\packages\\jose-jwt-signed\\2.3.0\\jose-jwt-signed.2.3.0.nupkg.sha512",
     "C:\\Users\\Simao\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

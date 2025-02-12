@@ -1,0 +1,630 @@
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.json
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.exe
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\hibernate.cfg.xml
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.deps.json
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.json
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.dev.json
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Iesi.Collections.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\jose-jwt.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.EagerFetching.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\Castle.DynamicProxy2.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\LinFu.DynamicProxy.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\log4net.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.Castle.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.LinFu.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.core.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.AssemblyReference.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfo.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.input.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.output.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorCoreGenerate.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Register.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cs
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.Views.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\scopedcss\bundle\WebApplication.styles.css
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Manifest.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Pack.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.build.WebApplication.props
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication.props
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebApplication.props
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebAppli.11721D13.Up2Date
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\refint\WebApplication.dll
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.pdb
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.genruntimeconfig.cache
+C:\Users\Adrián\Downloads\winetrackerGen05122024\winetrackerGen\WebApplication\obj\Debug\net5.0\ref\WebApplication.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.json
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.exe
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\hibernate.cfg.xml
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.deps.json
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.json
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.dev.json
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Iesi.Collections.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\jose-jwt.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.EagerFetching.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\Castle.DynamicProxy2.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\LinFu.DynamicProxy.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\log4net.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.Castle.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.LinFu.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.core.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.AssemblyReference.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfo.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.input.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.output.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorCoreGenerate.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Register.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cs
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.Views.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\scopedcss\bundle\WebApplication.styles.css
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Manifest.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Pack.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.build.WebApplication.props
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication.props
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebApplication.props
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebAppli.11721D13.Up2Date
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\refint\WebApplication.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.pdb
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.genruntimeconfig.cache
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\ref\WebApplication.dll
+C:\Users\Adrián\OneDrive\Desktop\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\detalleVino.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\refint\WebApplication.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.json
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.exe
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\hibernate.cfg.xml
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.deps.json
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.json
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.dev.json
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Iesi.Collections.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\jose-jwt.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.EagerFetching.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\log4net.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.core.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.input.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.output.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorCoreGenerate.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\DetalleVino.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Detalle\Details.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Register.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.Views.pdb
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\scopedcss\bundle\WebApplication.styles.css
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Manifest.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Pack.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.build.WebApplication.props
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication.props
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebApplication.props
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebAppli.11721D13.Up2Date
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\ref\WebApplication.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Perfil.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\Create.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.Development.json
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\appsettings.json
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.exe
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\hibernate.cfg.xml
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.deps.json
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.json
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.dev.json
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.pdb
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WebApplication.Views.pdb
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Humanizer.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Iesi.Collections.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\jose-jwt.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Remotion.Linq.EagerFetching.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\Castle.DynamicProxy2.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\LinFu.DynamicProxy.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\log4net.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.Castle.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\NHibernate.ByteCode.LinFu.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.core.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\nunit.framework.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.ApplicationCore.pdb
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\bin\Debug\net5.0\WinetrackerGen.Infraestructure.pdb
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.AssemblyReference.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfoInputs.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfo.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorAssemblyInfo.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.input.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.TagHelpers.output.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorCoreGenerate.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\Create.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\DetalleVino.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\Edit.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\MisVinos.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Pedidos\Cesta.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Cesta.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Detalle.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\mispedidos.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\misVentas.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Perfil.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Register.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.RazorTargetAssemblyInfo.cs
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.Views.pdb
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\scopedcss\bundle\WebApplication.styles.css
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Manifest.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\WebApplication.StaticWebAssets.Pack.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.build.WebApplication.props
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication.props
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebApplication.props
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebAppli.11721D13.Up2Date
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\refint\WebApplication.dll
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.pdb
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\WebApplication.genruntimeconfig.cache
+C:\onedrive\OneDrive - UNIVERSIDAD ALICANTE\DSM\2024\Practicas\Workspace\winetrackerGen\WebApplication\obj\Debug\net5.0\ref\WebApplication.dll
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\Edit.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Articulo\MisVinos.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Pedidos\Cesta.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Cesta.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\Detalle.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\mispedidos.cshtml.g.cs
+C:\Users\Usuario\Downloads\winetrackerGen\WebApplication\obj\Debug\net5.0\Razor\Views\Usuario\misVentas.cshtml.g.cs

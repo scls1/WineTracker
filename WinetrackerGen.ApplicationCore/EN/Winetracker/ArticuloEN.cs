@@ -96,6 +96,41 @@ private System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winet
 
 
 
+/**
+ *	Atributo stock
+ */
+private int stock;
+
+
+
+/**
+ *	Atributo valoracionMedia
+ */
+private float valoracionMedia;
+
+
+
+/**
+ *	Atributo numValoraciones
+ */
+private int numValoraciones;
+
+
+
+/**
+ *	Atributo valoracionTotal
+ */
+private float valoracionTotal;
+
+
+
+/**
+ *	Atributo foto
+ */
+private string foto;
+
+
+
 
 
 
@@ -177,6 +212,36 @@ public virtual System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.E
 
 
 
+public virtual int Stock {
+        get { return stock; } set { stock = value;  }
+}
+
+
+
+public virtual float ValoracionMedia {
+        get { return valoracionMedia; } set { valoracionMedia = value;  }
+}
+
+
+
+public virtual int NumValoraciones {
+        get { return numValoraciones; } set { numValoraciones = value;  }
+}
+
+
+
+public virtual float ValoracionTotal {
+        get { return valoracionTotal; } set { valoracionTotal = value;  }
+}
+
+
+
+public virtual string Foto {
+        get { return foto; } set { foto = value;  }
+}
+
+
+
 
 
 public ArticuloEN()
@@ -189,20 +254,20 @@ public ArticuloEN()
 
 
 
-public ArticuloEN(int id, string nombre, string descripcion, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.VinosEnum tipo_vino, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.UvasEnum tipo_uva, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.RegionEnum region, float precio, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.MaridajeEnum maridaje, WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN vendedor_publica, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> comentario_pertenece, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_articulo, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN> usuarios_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.LineaPedidoEN> lineaPedido_articulo
+public ArticuloEN(int id, string nombre, string descripcion, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.VinosEnum tipo_vino, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.UvasEnum tipo_uva, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.RegionEnum region, float precio, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.MaridajeEnum maridaje, WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN vendedor_publica, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> comentario_pertenece, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_articulo, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN> usuarios_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.LineaPedidoEN> lineaPedido_articulo, int stock, float valoracionMedia, int numValoraciones, float valoracionTotal, string foto
                   )
 {
-        this.init (Id, nombre, descripcion, tipo_vino, tipo_uva, region, precio, maridaje, vendedor_publica, comentario_pertenece, valoracion_articulo, usuarios_favoritos, lineaPedido_articulo);
+        this.init (Id, nombre, descripcion, tipo_vino, tipo_uva, region, precio, maridaje, vendedor_publica, comentario_pertenece, valoracion_articulo, usuarios_favoritos, lineaPedido_articulo, stock, valoracionMedia, numValoraciones, valoracionTotal, foto);
 }
 
 
 public ArticuloEN(ArticuloEN articulo)
 {
-        this.init (articulo.Id, articulo.Nombre, articulo.Descripcion, articulo.Tipo_vino, articulo.Tipo_uva, articulo.Region, articulo.Precio, articulo.Maridaje, articulo.Vendedor_publica, articulo.Comentario_pertenece, articulo.Valoracion_articulo, articulo.Usuarios_favoritos, articulo.LineaPedido_articulo);
+        this.init (articulo.Id, articulo.Nombre, articulo.Descripcion, articulo.Tipo_vino, articulo.Tipo_uva, articulo.Region, articulo.Precio, articulo.Maridaje, articulo.Vendedor_publica, articulo.Comentario_pertenece, articulo.Valoracion_articulo, articulo.Usuarios_favoritos, articulo.LineaPedido_articulo, articulo.Stock, articulo.ValoracionMedia, articulo.NumValoraciones, articulo.ValoracionTotal, articulo.Foto);
 }
 
 private void init (int id
-                   , string nombre, string descripcion, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.VinosEnum tipo_vino, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.UvasEnum tipo_uva, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.RegionEnum region, float precio, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.MaridajeEnum maridaje, WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN vendedor_publica, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> comentario_pertenece, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_articulo, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN> usuarios_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.LineaPedidoEN> lineaPedido_articulo)
+                   , string nombre, string descripcion, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.VinosEnum tipo_vino, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.UvasEnum tipo_uva, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.RegionEnum region, float precio, WinetrackerGen.ApplicationCore.Enumerated.Winetracker.MaridajeEnum maridaje, WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN vendedor_publica, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ComentarioEN> comentario_pertenece, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.ValoracionEN> valoracion_articulo, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.UsuarioEN> usuarios_favoritos, System.Collections.Generic.IList<WinetrackerGen.ApplicationCore.EN.Winetracker.LineaPedidoEN> lineaPedido_articulo, int stock, float valoracionMedia, int numValoraciones, float valoracionTotal, string foto)
 {
         this.Id = id;
 
@@ -230,6 +295,16 @@ private void init (int id
         this.Usuarios_favoritos = usuarios_favoritos;
 
         this.LineaPedido_articulo = lineaPedido_articulo;
+
+        this.Stock = stock;
+
+        this.ValoracionMedia = valoracionMedia;
+
+        this.NumValoraciones = numValoraciones;
+
+        this.ValoracionTotal = valoracionTotal;
+
+        this.Foto = foto;
 }
 
 public override bool Equals (object obj)

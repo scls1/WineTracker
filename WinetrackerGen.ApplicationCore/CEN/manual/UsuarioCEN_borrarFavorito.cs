@@ -15,7 +15,7 @@ namespace WinetrackerGen.ApplicationCore.CEN.Winetracker
 {
 public partial class UsuarioCEN
 {
-public void BorrarFavorito (int p_oid)
+public void BorrarFavorito (string p_oid)
 {
         /*PROTECTED REGION ID(WinetrackerGen.ApplicationCore.CEN.Winetracker_Usuario_borrarFavorito) ENABLED START*/
 

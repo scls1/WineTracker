@@ -8,6 +8,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinetrackerGen.Infraestruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinetrackerGen.ApplicationCore", "WinetrackerGen.ApplicationCore\WinetrackerGen.ApplicationCore.csproj", "{9432324C-3BE8-4ECA-8C63-492604D5E34F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication\WebApplication.csproj", "{EA37F6BA-41C6-496E-9EF7-73D1BB430490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +28,15 @@ Global
 		{9432324C-3BE8-4ECA-8C63-492604D5E34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9432324C-3BE8-4ECA-8C63-492604D5E34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9432324C-3BE8-4ECA-8C63-492604D5E34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA37F6BA-41C6-496E-9EF7-73D1BB430490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA37F6BA-41C6-496E-9EF7-73D1BB430490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA37F6BA-41C6-496E-9EF7-73D1BB430490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA37F6BA-41C6-496E-9EF7-73D1BB430490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {025BFDB7-2360-4A41-9E9C-E91E0997C060}
 	EndGlobalSection
 EndGlobal
